@@ -1,0 +1,18 @@
+{
+  "name": "blank-slate",
+  "title": "Blank Slate App",
+  "description": "Blank Slate! Build what you will!",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@dasha.ai/sdk": "^0.6.5"
+  },
+  "dashaPlaygroundFiles": {
+    "dsl": "app/main.dsl",
+    "js": "index.js",
+    "dashaapp": "app/app.dashaapp",
+    "phrasemap": "app/phrasemap.json",
+    "intents": "app/data.json"
+  }
+}
