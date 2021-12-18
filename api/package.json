@@ -1,17 +1,15 @@
 {
-  "name": "dashimotion",
+  "name": "blank-slate",
   "title": "Blank Slate App",
   "description": "Blank Slate! Build what you will!",
-  "main": "start.js",
   "scripts": {
-    "start": "node api:client"
+    "start": "node index.js"
   },
   "dependencies": {
     "@dasha.ai/sdk": "^0.6.5",
     "chalk": "^5.0.0",
     "concurrently": "^6.5.0",
-    "figlet": "^1.5.2",
-    "lodash": "^4.17.21"
+    "figlet": "^1.5.2"
   },
   "dashaPlaygroundFiles": {
     "dsl": "app/main.dsl",
