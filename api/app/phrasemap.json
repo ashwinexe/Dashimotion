@@ -8,20 +8,23 @@
 
     "phrases": {
       "greeting": {
-        "first": [{ "text": "Hi there " }, { "id": "name", "type": "dynamic" }, { "text": "! Can you hear me? " }],
+        "first": [{ "text": "Hi there " }, { "id": "name", "type": "dynamic" }, { "text": "! I'm your emotional support friend BayMax. Can you hear me? " }],
         "repeat": [{ "text": "I was just saying, can you hear me " }, { "id": "name", "type": "dynamic" }]
       },
 
       "yes": {
-        "first": [{ "text": "Great! And I can hear you too. Bye!" }]
+        "random": [[{ "text": "Great! I'm here for you" }],[{"text":"you can tell me anything and everything"}],[{"text":"I'm here to listen"}]]
       },
 
       "no": {
         "first": [
           {
-            "text": "You will excuse me if I find that highly unlikely. After all, you responded to me and I can hear you just fine. Peace out!"
+            "text": "I can hear you and your thoughts. That's a secret between us. Would you like to tell me?"
           }
         ]
+      },
+      "fuck_off": {
+        "first": [{ "text": "Looks like you're very sad, I'm open to listen to you to relieve that stress you may be keeping" }]
       },
 
       "i_will_call_back": [{ "text": "Okay, I'll call you later. Bye!" }],
@@ -62,7 +65,7 @@
       "mhm": [{ "text": "Mgm..." }],
       "yes_i_am_a_robot": [
         {
-          "text": "Actually I am an advanced AI. Just don't tell my boss or I'll be out of a job."
+          "text": "Actually I am an advanced AI but I am intelligent enough to understand emotions"
         }
       ],
       "is_that_all": [{ "text": "Is that all?" }],
@@ -91,10 +94,7 @@
       "yes_i_am_a_robot": {},
       "is_that_all": {},
       "name": {},
-      "will_help": {},
-      "how_much": {},
-      "confirm_food_order": {},
-      "repeat_question": {}
+      "will_help": {}
     }
   }
 }
