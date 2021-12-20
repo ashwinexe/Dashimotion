@@ -14,7 +14,7 @@ const main = async () => {
 	const sandbox = {
 		tts: "dasha",
 		stt: "default",
-		endpoint:  "918588922986",
+		endpoint:  process.argv[2] ?? "",
 		execute: async (input) => {
 			const conv = app.createConversation(input);
 			const channel = sandbox.endpoint !== "chat" ? "audio" : "text";
